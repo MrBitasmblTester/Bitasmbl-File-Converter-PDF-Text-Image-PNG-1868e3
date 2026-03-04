@@ -1,0 +1,1 @@
+import React from 'react';export default function StatusBanner({status,error}){if(status==='idle')return null;return(<div className="mt-4 text-sm">{error?<span className="text-red-600">{error}</span>:<span>{status}</span>}</div>);}
