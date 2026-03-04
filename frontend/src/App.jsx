@@ -1,0 +1,1 @@
+import React,{useState}from 'react';import {convertFile} from './api/client';export default function App(){const[file,setFile]=useState();const[status,setStatus]=useState('idle');const[result,setResult]=useState(null);return(<div className="p-4">{/* UI here */}</div>);} 
