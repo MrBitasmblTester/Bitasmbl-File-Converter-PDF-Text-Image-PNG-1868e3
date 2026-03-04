@@ -1,0 +1,1 @@
+exports.convert=async(file)=>{if(!file)throw Error('nofile');/* detect type, convert, return path */return{outputPath:'',mime:'',name:''};};
