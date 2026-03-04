@@ -1,0 +1,1 @@
+import React from 'react';export default function UploadForm({onSelect,onSubmit,disabled}){return(<form onSubmit={onSubmit}><input type="file" onChange={e=>onSelect(e.target.files[0])}/><button disabled={disabled}>Convert</button></form>);}
