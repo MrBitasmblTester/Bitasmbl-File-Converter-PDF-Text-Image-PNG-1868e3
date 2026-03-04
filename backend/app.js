@@ -1,0 +1,1 @@
+const express=require('express');const app=express();const corsCfg=require('./config/corsConfig');const routes=require('./routes/conversionRoutes');app.use(corsCfg());app.use('/files',express.static('converted'));app.use('/convert',routes);module.exports=app;
