@@ -1,0 +1,1 @@
+export async function convertFile(file){const form=new FormData();form.append('file',file);const res=await fetch('http://localhost:4000/convert',{method:'POST',body:form});if(!res.ok)throw new Error('failed');return res.json();}
