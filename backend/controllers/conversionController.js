@@ -1,0 +1,1 @@
+exports.convertFile=(req,res)=>{try{/* get file,type; call service; send url */res.json({status:'pending'});}catch(e){res.status(500).json({error:'fail'});} };
