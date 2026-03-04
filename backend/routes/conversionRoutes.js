@@ -1,0 +1,1 @@
+const router=require('express').Router();const ctrl=require('../controllers/conversionController');router.post('/convert',ctrl.convertFile);module.exports=router;
