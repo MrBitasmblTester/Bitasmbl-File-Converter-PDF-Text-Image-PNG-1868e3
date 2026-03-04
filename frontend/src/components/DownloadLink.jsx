@@ -1,0 +1,1 @@
+import React from 'react';export default function DownloadLink({url,name}){if(!url)return null;return(<a href={url} download={name} className="mt-4 inline-block text-blue-600">Download</a>);}
